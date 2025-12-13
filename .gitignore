@@ -1,15 +1,5 @@
-# Compiled class files
-*.class
-*.jar
-*.war
+# Ignore everything
+*
 
-# Eclipse output
-bin/
-target/
-build/
-
-# IDE files
-.classpath
-.project
-.settings/
-modelinfo/
+# Except .java files
+!*.java
