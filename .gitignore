@@ -1,0 +1,15 @@
+# Compiled class files
+*.class
+*.jar
+*.war
+
+# Eclipse output
+bin/
+target/
+build/
+
+# IDE files
+.classpath
+.project
+.settings/
+modelinfo/
