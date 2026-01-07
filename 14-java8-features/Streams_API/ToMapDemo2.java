@@ -1,0 +1,18 @@
+package stream_method;
+
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class ToMapDemo2 
+{
+	public static void main(String[] args) 
+	{
+		List<String> listOfCountry = List.of("India","Australia","USA","China","Japan");
+		
+	
+	   Map<String,Integer> map = listOfCountry.stream().collect(Collectors.toMap(String::toUpperCase,String::length));
+	   
+	   map.forEach((k,v)-> System.out.println(k+" : "+v));
+	}   
+}

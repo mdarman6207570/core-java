@@ -1,0 +1,22 @@
+package day_50_Compile_Time_Polymorphism_Method_Overloading;
+
+class Test3
+{
+	public void accept(int... d) 
+	{
+		System.out.println("int");
+	}
+	public void accept(char ...d) 
+	{
+		System.out.println("char");
+	}
+}
+
+public class AmbiguityIssue3 
+{
+	public static void main(String[] args) 
+	{
+		Test3 t = new Test3();
+		t.accept();
+	}
+}

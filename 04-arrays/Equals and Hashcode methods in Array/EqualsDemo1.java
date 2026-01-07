@@ -1,0 +1,11 @@
+package equals_hashcode;
+
+import java.util.Arrays;
+
+public class EqualsDemo1 {
+	public static void main(String[] args) {
+		int arr[] = { 1, 2, 3, 4, 5 };
+		int brr[] = { 1, 2, 3, 4, 5 };
+		System.out.println(Arrays.equals(arr, brr));
+	}
+}
