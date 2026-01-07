@@ -1,15 +1,23 @@
-# Core Java
+# Core Java Programs
 
-This repository contains Core Java programs written for
-Full Stack Java Developer preparation.
+This repository contains Core Java programs organized by topics:
 
 ## Topics Covered
-- OOPs concepts
-- Collections Framework
-- Multithreading
+- Java Basics & Syntax
+- Variables & Operators
+- Control Statements
+- Arrays & Strings
+- OOPs Concepts
+- Packages & Access Modifiers
 - Exception Handling
-- Java 8 features
+- Collections Framework
+- Generics
+- Java IO & NIO
+- Multithreading
+- Java 8 Features (Streams, Lambda)
+- Java 17 Features
 
-## Tools
-- Java 8+
-- Eclipse IDE
+## Purpose
+- Strengthen Core Java fundamentals
+- Prepare for Java Developer interviews
+- Practice object-oriented programming concepts
